@@ -2,2918 +2,38 @@ fileFormatVersion: 2
 guid: 43340a3eb91c04f0ea6bc870e0d5f096
 ModelImporter:
   serializedVersion: 25
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: -7441175960419379042
+    second: Cube.002|abrir.001
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.001
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: 2812872265363329454
+    second: Cube.002|abrir.002
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.002
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: -7595161142437491368
+    second: Cube.002|abrir
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.003
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: 2332755078756454184
+    second: Cube.002|cerrar
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.004
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: -4346272407600935238
+    second: Cube.002|cerrar.001
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.005
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: -2956536125316412539
+    second: Cube.008|abrir.001
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.006
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: -1785519780995267731
+    second: Cube.008|abrir.002
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.007
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: 3134240239883315489
+    second: Cube.008|abrir
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.008
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
+      74: 3491594304263723510
+    second: Cube.008|cerrar
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.009
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.010
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.011
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.012
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.013
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.014
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.015
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.016
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.017
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.018
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.019
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.020
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.021
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.022
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.023
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.024
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.025
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.026
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.027
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.028
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.029
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.030
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.031
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.032
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.033
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.034
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.035
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.036
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.037
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.038
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.039
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.040
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.041
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.042
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.043
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.044
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.045
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.046
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.047
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.048
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.049
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.050
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.051
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.052
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.053
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.054
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.055
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.056
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.057
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.058
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.059
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.060
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.061
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.062
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.063
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.064
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.065
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.066
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.067
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.068
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.069
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.070
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.071
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.072
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.073
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.074
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.075
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.076
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.077
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.078
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.079
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.080
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.081
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.082
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.083
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.084
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.085
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.086
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.087
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.088
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.089
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.090
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.091
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.092
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.093
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.094
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.095
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.096
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.097
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.098
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.099
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.100
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.101
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.102
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.103
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.104
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.105
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.106
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.107
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.108
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.109
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.110
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.111
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.112
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.113
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.114
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.115
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.116
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.117
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.118
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.119
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.120
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.121
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.122
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.123
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.124
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.125
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.126
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.127
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.128
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.129
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.130
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.131
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.132
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.133
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.134
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.135
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.136
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.137
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.138
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.139
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.140
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.141
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.142
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.143
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.144
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.145
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.146
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.147
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.148
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.149
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.150
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.151
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.152
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.153
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.154
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.155
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.156
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.157
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.158
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.159
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.160
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.161
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.162
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.163
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.164
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.165
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.166
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.167
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.168
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.169
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.170
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.171
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.172
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.173
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.174
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.175
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.176
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.177
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.178
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.179
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.180
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.181
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.182
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.183
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.184
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.185
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.186
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.187
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.188
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.189
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.190
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.191
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.192
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.193
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.194
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.195
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.196
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.197
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.198
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.199
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.200
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.201
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.202
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.203
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.204
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.205
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.206
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.207
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.208
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.209
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.210
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.211
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.212
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.213
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.214
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.215
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.216
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.217
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.218
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.219
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.220
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.221
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.222
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.223
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.224
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.225
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.226
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.227
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.228
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.229
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.230
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.231
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.232
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.233
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.234
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.235
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.236
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.237
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.238
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.239
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.240
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.241
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.242
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.243
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.244
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.245
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.246
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.247
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.248
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.249
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.250
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.251
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.252
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.253
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.254
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.255
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.256
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.257
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.258
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.259
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.260
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.261
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.262
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.263
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.264
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.265
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.266
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.267
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.268
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.269
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.270
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.271
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.272
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.273
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.274
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.275
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.276
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.277
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.278
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.279
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.280
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.281
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.282
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.283
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.284
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.285
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.286
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.287
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.288
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.289
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: coin-texture.290
-    second: {fileID: 2100000, guid: 84599f6cb85ff4ae38e2cc53418854dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.001
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.002
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.003
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.004
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.005
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.006
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.007
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.008
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.009
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.010
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.011
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.012
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.013
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.014
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.015
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.016
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.017
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.018
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.019
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.020
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.021
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.022
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.023
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.024
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.025
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.026
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.027
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.028
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.029
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.030
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.031
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.032
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.033
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.034
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.035
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.036
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.037
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.038
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.039
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.040
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.041
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.042
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.043
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.044
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.045
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.046
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.047
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.048
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.049
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.050
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.051
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.052
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.053
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.054
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.055
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.056
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.057
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.058
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.059
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.060
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.061
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.062
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.063
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.064
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.065
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.066
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.067
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.068
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.069
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.070
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.071
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.072
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.073
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.074
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.075
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.076
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.077
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.078
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.079
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.080
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.081
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.082
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.083
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.084
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.085
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.086
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.087
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.088
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.089
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.090
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.091
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.092
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.093
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.094
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.095
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.096
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.097
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.098
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.099
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.100
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.101
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.102
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.103
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.104
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.105
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.106
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.107
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.108
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.109
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.110
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.111
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.112
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.113
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.114
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.115
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.116
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.117
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.118
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.119
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.120
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.121
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.122
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.123
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.124
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.125
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.126
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.127
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.128
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.129
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.130
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.131
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.132
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.133
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.134
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.135
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.136
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.137
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.138
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.139
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.140
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.141
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.142
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.143
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.144
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.145
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.146
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.147
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.148
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.149
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.150
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.151
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.152
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.153
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.154
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.155
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.156
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.157
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.158
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.159
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.160
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.161
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.162
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.163
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.164
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.165
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.166
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.167
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.168
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.169
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.170
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.171
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.172
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.173
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.174
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.175
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.176
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.177
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.178
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.179
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.180
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.181
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.182
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.183
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.184
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.185
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.186
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.187
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.188
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.189
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.190
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.191
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.192
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.193
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.194
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.195
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.196
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.197
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.198
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.199
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.200
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.201
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.202
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.203
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.204
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.205
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.206
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.207
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.208
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.209
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.210
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.211
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.212
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.213
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.214
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.215
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.216
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.217
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.218
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.219
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.220
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.221
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.222
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.223
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.224
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.225
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.226
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.227
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.228
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.229
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.230
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.231
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.232
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.233
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.234
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.235
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.236
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.237
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.238
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.239
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.240
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.241
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.242
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.243
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.244
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.245
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.246
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.247
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.248
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.249
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.250
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.251
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.252
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.253
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.254
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.255
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.256
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.257
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.258
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.259
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.260
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.261
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.262
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.263
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.264
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.265
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.266
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.267
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.268
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.269
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.270
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.271
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.272
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.273
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.274
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.275
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.276
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.277
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.278
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.279
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.280
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.281
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.282
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.283
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.284
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.285
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.286
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.287
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.288
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.289
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gold.290
-    second: {fileID: 2100000, guid: 01f489d531ec2459ea1bc752fd42b9b3, type: 2}
+      74: -238969216112713501
+    second: Cube.008|cerrar.001
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -2940,7 +60,297 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cube.002|abrir.001
+      takeName: Cube.002|abrir.001
+      internalID: -7441175960419379042
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.002|abrir.002
+      takeName: Cube.002|abrir.002
+      internalID: 2812872265363329454
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.002|abrir
+      takeName: Cube.002|abrir
+      internalID: -7595161142437491368
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.002|cerrar
+      takeName: Cube.002|cerrar
+      internalID: 2332755078756454184
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.002|cerrar.001
+      takeName: Cube.002|cerrar.001
+      internalID: -4346272407600935238
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.008|abrir.001
+      takeName: Cube.008|abrir.001
+      internalID: -2956536125316412539
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.008|abrir.002
+      takeName: Cube.008|abrir.002
+      internalID: -1785519780995267731
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.008|abrir
+      takeName: Cube.008|abrir
+      internalID: 3134240239883315489
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.008|cerrar
+      takeName: Cube.008|cerrar
+      internalID: 3491594304263723510
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube.008|cerrar.001
+      takeName: Cube.008|cerrar.001
+      internalID: -238969216112713501
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -2996,7 +406,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -43,7 +43,7 @@ public class PlayerMove : MonoBehaviour
       float verInput = Input.GetAxis(verticalInputName);
 
       Vector3 forwardMovement = transform.forward * verInput;
-      Vector3 rightMovement = transform.forward * horInput;
+      Vector3 rightMovement = transform.right * horInput;
 
       charController.SimpleMove(Vector3.ClampMagnitude(forwardMovement + rightMovement, 1.0f) * movementSpeed);
 
