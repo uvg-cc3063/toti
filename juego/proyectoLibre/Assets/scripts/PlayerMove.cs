@@ -26,6 +26,9 @@ public class PlayerMove : MonoBehaviour
    [SerializeField] private KeyCode jumpKey;
 
    private bool isJumping;
+
+
+   public int bala;
    
    private void Awake()
    {
@@ -113,4 +116,15 @@ public class PlayerMove : MonoBehaviour
       charController.slopeLimit = 45.0f;
       isJumping = false; 
    } 
+   
+   public void OnTriggerEnter(Collider other)
+   {
+      if (other.tag == "balas")
+      {
+
+         bala = disparo.balasRes;
+         disparo.balasRes = bala;
+         bala = bala + 12;
+      }
+   }
 }
