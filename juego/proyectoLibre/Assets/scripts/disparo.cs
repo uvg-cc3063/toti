@@ -14,7 +14,7 @@ public class disparo : MonoBehaviour
     public float tiempoDisparo;
     private int balas;
     public Text balasTxt;
-    public static int balasRes; 
+    public int balasRes; 
     public Text balasResTxt;
     private string alerta;
     private string alerta2;
@@ -27,11 +27,13 @@ public class disparo : MonoBehaviour
         alerta2 = "No more bullets!";
         balas = 6;
         balasRes = 36;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        //mesanjes de sin balas/recargar
         if (balas == 0)
         {
             alerta = "Press R to reload";
@@ -45,12 +47,11 @@ public class disparo : MonoBehaviour
         
         balasTxt.text = balas.ToString();
         balasResTxt.text = balasRes.ToString();
+        //disparo
         if (Input.GetButtonDown("Fire1") && Time.time > inicioDisparo && balas != 0)
         {
             balas = balas - 1;
-            Debug.Log(balas);
-            
-            
+
             inicioDisparo = Time.time + tiempoDisparo;
             Rigidbody balaPrefInstanc;
 
@@ -59,59 +60,238 @@ public class disparo : MonoBehaviour
             
         }
 
+        //recargar
         if (Input.GetKeyDown(KeyCode.R) && balasRes != 0)
         {
             alerta = "";
             alertaTxt.text = alerta;
-            if (balasRes != 0 && balas == 0)
+            if (balasRes >= 6 && balas == 0)
             {
                 balas = 6;
                 balasRes = balasRes - 6;
-
             }
-            if (balasRes != 0 && balas == 1)
+            if (balasRes >= 6 && balas == 1)
             {
                 balas = 6;
                 balasRes = balasRes - 5;
-
             }
-            if (balasRes != 0  && balas == 2)
+            if (balasRes >= 6  && balas == 2)
             {
                 balas = 6;
                 balasRes = balasRes - 4;
-
             }
-            if (balasRes != 0 && balas == 3)
+            if (balasRes >= 6 && balas == 3)
             {
                 balas = 6;
                 balasRes = balasRes - 3;
-
             }
-            if (balasRes != 0 && balas == 4)
+            if (balasRes >= 6 && balas == 4)
             {
                 balas = 6;
                 balasRes = balasRes - 2;
             }
-            if (balasRes != 0 && balas == 5)
+            if (balasRes >= 6 && balas == 5)
             {
                 balas = 6;
                 balasRes = balasRes - 1;
-
             }
-            if (balasRes != 0 && balas == 6)
+            if (balasRes >= 6 && balas == 6)
             {
                 balas = 6;
+            }
+            
+            
+            if (balasRes == 5 && balas == 6)
+            {
+                balas = 6;
+            }
+            if (balasRes == 5 && balas == 5)
+            {
+                balas = 6;
+                balasRes = balasRes - 1;
+            }
+            if (balasRes == 5 && balas == 4)
+            {
+                balas = 6;
+                balasRes = balasRes - 2;
+            }
+            if (balasRes == 5 && balas == 3)
+            {
+                balas = 6;
+                balasRes = balasRes - 3;
+            }
+            if (balasRes == 5 && balas == 2)
+            {
+                balas = 6;
+                balasRes = balasRes - 4;
+            }
+            if (balasRes == 5 && balas == 1)
+            {
+                balas = 6;
+                balasRes = balasRes - 5;
+            }
+            if (balasRes == 5 && balas == 0)
+            {
+                balas = 6;
+                balasRes = balasRes - balasRes;
+            }
+            
+            
+            if (balasRes == 4 && balas == 6)
+            {
+                balas = 6;
+            }
+            if (balasRes == 4 && balas == 5)
+            {
+                balas = 6;
+                balasRes = balasRes - 1;
+            }
+            if (balasRes == 4 && balas == 4)
+            {
+                balas = 6;
+                balasRes = balasRes - 2;
+            }
+            if (balasRes == 4 && balas == 3)
+            {
+                balas = 6;
+                balasRes = balasRes - 3;
+            }
+            if (balasRes == 4 && balas == 2)
+            {
+                balas = 6;
+                balasRes = balasRes - 4;
+            }
+            if (balasRes == 4 && balas == 1)
+            {
+                balas = 5;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 4 && balas == 0)
+            {
+                balas = 4;
+                balasRes = balasRes - balasRes;
+            }
+            
+            
+            if (balasRes == 3 && balas == 6)
+            {
+                balas = 6;
+            }
+            if (balasRes == 3 && balas == 5)
+            {
+                balas = 6;
+                balasRes = balasRes - 1;
+            }
+            if (balasRes == 3 && balas == 4)
+            {
+                balas = 6;
+                balasRes = balasRes - 2;
+            }
+            if (balasRes == 3 && balas == 3)
+            {
+                balas = 6;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 3 && balas == 2)
+            {
+                balas = 5;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 3 && balas == 1)
+            {
+                balas = 4;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 3 && balas == 0)
+            {
+                balas = 3;
+                balasRes = balasRes - balasRes;
+            }
+            
+            
+            if (balasRes == 2 && balas == 6)
+            {
+                balas = 6;
+            }
+            if (balasRes == 2 && balas == 5)
+            {
+                balas = 6;
+                balasRes = balasRes - 1;
+            }
+            if (balasRes == 2 && balas == 4)
+            {
+                balas = 6;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 2 && balas == 3)
+            {
+                balas = 5;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 2 && balas == 2)
+            {
+                balas = 4;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 2 && balas == 1)
+            {
+                balas = 3;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 2 && balas == 0)
+            {
+                balas = 2;
+                balasRes = balasRes - balasRes;
+            }
+            
+            
+            if (balasRes == 1 && balas == 6)
+            {
+                balas = 6;
+            }
+            if (balasRes == 1 && balas == 5)
+            {
+                balas = 6;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 1 && balas == 4)
+            {
+                balas = 5;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 1 && balas == 3)
+            {
+                balas = 4;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 1 && balas == 2)
+            {
+                balas = 3;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 1 && balas == 1)
+            {
+                balas = 2;
+                balasRes = balasRes - balasRes;
+            }
+            if (balasRes == 1 && balas == 0)
+            {
+                balas = 1;
+                balasRes = balasRes - balasRes;
             }
         }
     }
 
-    public void agarragBalas()
+    //agarrar balas
+    public void SetRecarga(int recarga)
     {
-        if (balasRes <= 88)
+        if (balasRes < 84)
         {
-            balasRes = balasRes + 12;
-        } 
+            balasRes = balasRes + recarga;
+        }
+        else
+        {
+            balasRes = 96;
+        }
     }
-
-    
 }

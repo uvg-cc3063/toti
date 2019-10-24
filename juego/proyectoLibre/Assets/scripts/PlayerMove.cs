@@ -26,10 +26,15 @@ public class PlayerMove : MonoBehaviour
    [SerializeField] private KeyCode jumpKey;
 
    private bool isJumping;
+   private bool municion;
 
 
-   public int bala;
-   
+   public disparo recarga;
+
+   private void Start()
+   {
+   }
+
    private void Awake()
    {
       charController = GetComponent<CharacterController>();
@@ -38,8 +43,18 @@ public class PlayerMove : MonoBehaviour
    private void Update()
    {
       PlayerMovement();
+      if (municion)
+      {
+         if (Input.GetKeyDown(KeyCode.E))
+         {
+            recarga.SetRecarga(12);
+            municion = false;
+            //Destroy(other.gameObject);
+         }
+      }
    }
 
+   //movimiento
    private void PlayerMovement()
    {
       float horInput = Input.GetAxis(horizontalInputName);
@@ -59,6 +74,7 @@ public class PlayerMove : MonoBehaviour
       JumpInput();
    }
 
+   //velocidad de movimiento
    private void SetMovementSpeed()
    {
       if (Input.GetKey(runKey))
@@ -90,15 +106,17 @@ public class PlayerMove : MonoBehaviour
       return false;
    }
 
+   //metodo de salto
    private void JumpInput()
    {
-      if (Input.GetKey(jumpKey) && !isJumping)
+      if (Input.GetKeyDown(jumpKey) && !isJumping)
       {
          isJumping = true;
          StartCoroutine(JumpEvent());
       }
    }
 
+   //corrutina para saltar 
    private IEnumerator JumpEvent()
    {
       charController.slopeLimit = 90.0f;
@@ -117,14 +135,13 @@ public class PlayerMove : MonoBehaviour
       isJumping = false; 
    } 
    
+   //trigger del jugador
    public void OnTriggerEnter(Collider other)
    {
-      if (other.tag == "balas")
+      //agarrar balas
+      if(other.gameObject.CompareTag("balas"))
       {
-
-         bala = disparo.balasRes;
-         disparo.balasRes = bala;
-         bala = bala + 12;
+         municion = true;
       }
    }
 }
