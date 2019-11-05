@@ -7,6 +7,7 @@
         <e p="scripts" t="Include">
           <e p="BulletManager.cs" t="Include" />
           <e p="disparo.cs" t="Include" />
+          <e p="flashlight.cs" t="Include" />
           <e p="PlayerLook.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
         </e>

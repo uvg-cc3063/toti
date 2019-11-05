@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -26,13 +27,28 @@ public class PlayerMove : MonoBehaviour
    [SerializeField] private KeyCode jumpKey;
 
    private bool isJumping;
-   private bool municion;
+   private bool municionBool;
+   private bool cofreBool;
+   private bool llaveBool;
+   private bool bateriaBool;
 
 
+   public int bateria;
+   public Text bateriaTxt;
+   
+   public int llave;
+   public Text llaveTxt;
+
+   private GameObject destruir;
+   
    public disparo recarga;
+   public Flashlight flash;
+   
 
    private void Start()
    {
+      bateria = 1;
+      bateriaTxt.text = bateria.ToString();
    }
 
    private void Awake()
@@ -43,14 +59,39 @@ public class PlayerMove : MonoBehaviour
    private void Update()
    {
       PlayerMovement();
-      if (municion)
+      bateriaTxt.text = bateria.ToString();
+      llaveTxt.text = llave.ToString();
+      if (Input.GetKeyDown(KeyCode.E))
       {
-         if (Input.GetKeyDown(KeyCode.E))
+         if (municionBool)
          {
             recarga.SetRecarga(12);
-            municion = false;
-            //Destroy(other.gameObject);
+            municionBool = false;
+            Destroy(destruir);
          }
+         if (bateriaBool)
+         {
+            bateria += 1;
+            bateriaBool = false;
+            Destroy(destruir);
+         }
+         if (cofreBool)
+         {
+            //animacion
+            if (llaveBool)
+            {
+               llave += 1;
+               llaveBool = false;
+               cofreBool = false;
+               //Destroy(destruir); llave
+            }
+            llaveBool = true;
+         }
+      }
+
+      if (Input.GetKeyDown(KeyCode.F))
+      {
+         flash.resetLuz();
       }
    }
 
@@ -141,7 +182,23 @@ public class PlayerMove : MonoBehaviour
       //agarrar balas
       if(other.gameObject.CompareTag("balas"))
       {
-         municion = true;
+         municionBool = true;
+         bateriaBool = false;
+         destruir = other.gameObject;
+      }
+      
+      if(other.gameObject.CompareTag("bateria"))
+      {
+         municionBool = false;
+         bateriaBool = true;
+         destruir = other.gameObject;
+      }
+      if(other.gameObject.CompareTag("cofre"))
+      {
+         municionBool = false;
+         bateriaBool = false;
+         cofreBool = true;
+         //destruir = other.gameObject;
       }
    }
 }
