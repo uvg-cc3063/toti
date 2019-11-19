@@ -10,7 +10,7 @@ public class Flashlight : MonoBehaviour
     Light luz;
     
     [SerializeField] 
-    private Image content;
+    private Image contentFlash;
     
     private int contador;
     private float tiempo;
@@ -33,40 +33,40 @@ public class Flashlight : MonoBehaviour
         tiempo += Time.deltaTime;
         contador = Convert.ToInt32(Math.Ceiling(tiempo));
         
-        if (contador <= 36)
+        if (contador <= 46)
         {
             luz.intensity = 1f;
-            content.fillAmount = 1f;
+            contentFlash.fillAmount = 1f;
         }
-        if (contador >= 36 && contador < 72)
+        if (contador >= 46 && contador < 92)
         {
             luz.intensity = 0.9f;
-            content.fillAmount = 0.80f;
+            contentFlash.fillAmount = 0.80f;
         }
-        if (contador >= 72 && contador < 108)
+        if (contador >= 92 && contador < 138)
         {
             luz.intensity = 0.8f;
-            content.fillAmount = 0.60f;
+            contentFlash.fillAmount = 0.60f;
         }
-        if (contador >= 108 && contador < 144)
+        if (contador >= 138 && contador < 184)
         {
             luz.intensity = 0.7f;
-            content.fillAmount = 0.40f;
+            contentFlash.fillAmount = 0.40f;
         }
-        if (contador >= 144 && contador < 170)
+        if (contador >= 184 && contador < 230)
         {
             luz.intensity = 0.5f;
-            content.fillAmount = 0.20f;
+            contentFlash.fillAmount = 0.20f;
         }
-        if (contador >= 170 && contador < 180)
+        if (contador >= 230 && contador < 240)
         {
             luz.intensity = Mathf.PingPong(Time.time * vel2, duration);
-            content.fillAmount = 0.10f;
+            contentFlash.fillAmount = 0.10f;
         }
-        if (contador >= 180)
+        if (contador >= 240)
         {
             luz.intensity = 0f;
-            content.fillAmount = 0f;
+            contentFlash.fillAmount = 0f;
         }
     }
     

@@ -2,14 +2,46 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="cofre" t="Include">
+          <e p="cofre.shader" t="Include" />
+        </e>
+        <e p="PyroParticles" t="Include">
+          <e p="Demo" t="Include">
+            <e p="DemoScript.cs" t="Include" />
+            <e p="DemoScriptEditor.cs" t="Include" />
+          </e>
+          <e p="Prefab" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PyroParticlesEditor.cs" t="Include" />
+            </e>
+            <e p="Materials" t="Include">
+              <e p="AdditiveTintable.shader" t="Include" />
+            </e>
+            <e p="Script" t="Include">
+              <e p="FireBaseScript.cs" t="Include" />
+              <e p="FireCollisionForwardScript.cs" t="Include" />
+              <e p="FireConstantBaseScript.cs" t="Include" />
+              <e p="FireLightScript.cs" t="Include" />
+              <e p="FireProjectileScript.cs" t="Include" />
+              <e p="MeteorSwarmScript.cs" t="Include" />
+              <e p="SingleLineAttribute.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Readme.txt" t="Include" />
+        </e>
         <e p="scripts" t="Include">
+          <e p="Boss.cs" t="Include" />
           <e p="BulletManager.cs" t="Include" />
           <e p="disparo.cs" t="Include" />
           <e p="flashlight.cs" t="Include" />
+          <e p="llave.cs" t="Include" />
+          <e p="Maze.cs" t="Include" />
           <e p="PlayerLook.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
+          <e p="Slasher.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

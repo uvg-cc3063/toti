@@ -25,12 +25,23 @@ public class PlayerMove : MonoBehaviour
    [SerializeField] private AnimationCurve jumpFallOff;
    [SerializeField] private float jumpMultiplier;
    [SerializeField] private KeyCode jumpKey;
-
+   
    private bool isJumping;
    private bool municionBool;
    private bool cofreBool;
    private bool llaveBool;
    private bool bateriaBool;
+   private bool puerta;
+   private bool danado;
+   private bool pelea;
+   
+   private bool boss;
+   private bool slash;
+
+   private float inicioCuchillo;
+   public float tiempoCuchillo;
+   private float inicioRegen;
+   public float tiempoRegen;
 
 
    public int bateria;
@@ -39,14 +50,23 @@ public class PlayerMove : MonoBehaviour
    public int llave;
    public Text llaveTxt;
 
+   public Image contentPlayer;
+
    private GameObject destruir;
    
    public disparo recarga;
    public Flashlight flash;
+   private Slasher sl;
+   private Boss bo;
+   
+   public Animator cofre;
+   
    
 
    private void Start()
    {
+      sl = GetComponent<Slasher>();
+      bo = GetComponent<Boss>();
       bateria = 1;
       bateriaTxt.text = bateria.ToString();
    }
@@ -83,15 +103,56 @@ public class PlayerMove : MonoBehaviour
                llave += 1;
                llaveBool = false;
                cofreBool = false;
-               //Destroy(destruir); llave
+               Destroy(destruir); 
             }
             llaveBool = true;
+         }
+
+         if (puerta && llave == 7)
+         {
+            //gano();
+         }
+         else if (puerta)
+         {
+            
          }
       }
 
       if (Input.GetKeyDown(KeyCode.F))
       {
          flash.resetLuz();
+      }
+
+      if (Input.GetButtonDown("Fire2") && Time.time > inicioCuchillo)
+      {
+         inicioCuchillo = Time.time + tiempoCuchillo;
+         if (boss)
+         {
+            bo.acuchillarBoss();
+         }
+
+         if (slash)
+         {
+            Debug.Log("entra");
+            sl.acuchillarSlash();
+         }
+      }
+      
+      
+      //regenerar
+      if (danado && pelea == false)
+      {
+         Debug.Log("ouch");
+         if (contentPlayer.fillAmount < 100f && Time.time > inicioRegen)
+         {
+            Debug.Log("subo"); 
+            inicioRegen = Time.time + tiempoRegen; 
+            contentPlayer.fillAmount += 20.0f;
+         } 
+         if (contentPlayer.fillAmount >= 100.0f)
+         {
+            danado = false;
+         }
       }
    }
 
@@ -177,7 +238,7 @@ public class PlayerMove : MonoBehaviour
    } 
    
    //trigger del jugador
-   public void OnTriggerEnter(Collider other)
+   private void OnTriggerEnter(Collider other)
    {
       //agarrar balas
       if(other.gameObject.CompareTag("balas"))
@@ -198,7 +259,93 @@ public class PlayerMove : MonoBehaviour
          municionBool = false;
          bateriaBool = false;
          cofreBool = true;
-         //destruir = other.gameObject;
+         Llave llave = other.GetComponentInChildren<Llave>();
+         destruir = llave.gameObject;
+      }
+      if (other.gameObject.CompareTag("fuego"))
+      {
+         bajarVidaPlayer2();
+         Destroy(other.gameObject);
+      }
+      if(other.gameObject.CompareTag("puerta"))
+      {
+         municionBool = false;
+         bateriaBool = false;
+         cofreBool = false;
+         puerta = true;
+      }
+      if(other.gameObject.CompareTag("slasher"))
+      {
+         pelea = true;
+         slash = true;
+      }
+      if(other.gameObject.CompareTag("boss"))
+      {
+         pelea = true;
+         boss = true;
+      }
+   }
+
+   private void OnTriggerExit(Collider otherE)
+   {
+      if(otherE.gameObject.CompareTag("balas"))
+      {
+         bateriaBool = false;
+      }
+      
+      if(otherE.gameObject.CompareTag("bateria"))
+      {
+         bateriaBool = false;
+      }
+      if(otherE.gameObject.CompareTag("cofre"))
+      {
+         cofreBool = false;
+         llaveBool = false;
+      }
+      if(otherE.gameObject.CompareTag("puerta"))
+      {
+         puerta = false;
+      }
+      if(otherE.gameObject.CompareTag("slasher"))
+      {
+         pelea = false;
+         slash = false;
+      }
+      if(otherE.gameObject.CompareTag("boss"))
+      {
+         pelea = false;
+         boss = false;
+      }
+   }
+   
+   
+   public void bajarVidaPlayer()
+   {
+      if (contentPlayer.fillAmount > 0.0f)
+      {
+         contentPlayer.fillAmount -= 0.20f;
+         danado = true;
+      }
+      
+      if (contentPlayer.fillAmount <= 0f)
+      {
+         Debug.Log("perdio");
+         //endGame();
+      }
+   }
+   
+   public void bajarVidaPlayer2()
+   {
+      if (contentPlayer.fillAmount > 0.0f)
+      {
+         contentPlayer.fillAmount -= 0.34f;
+         danado = true;
+      }
+      
+      if (contentPlayer.fillAmount <= 0f)
+      {
+         Debug.Log("perdio");
+         //endGame();
       }
    }
 }

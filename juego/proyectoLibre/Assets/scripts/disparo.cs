@@ -19,6 +19,10 @@ public class disparo : MonoBehaviour
     private string alerta;
     private string alerta2;
     public Text alertaTxt;
+
+    private Slasher slash;
+    
+    public Animator animShot;
     
     // Start is called before the first frame update
     void Start()
@@ -50,6 +54,8 @@ public class disparo : MonoBehaviour
         //disparo
         if (Input.GetButtonDown("Fire1") && Time.time > inicioDisparo && balas != 0)
         {
+            animShot.SetBool("shot", true);
+            animShot.SetBool("off", false);
             balas = balas - 1;
 
             inicioDisparo = Time.time + tiempoDisparo;
@@ -57,7 +63,6 @@ public class disparo : MonoBehaviour
 
             balaPrefInstanc = Instantiate(balaPrefab, jugador.position, Quaternion.identity);
             balaPrefInstanc.AddForce(jugador.forward * velDisparo * 100);
-            
         }
 
         //recargar
@@ -294,4 +299,6 @@ public class disparo : MonoBehaviour
             balasRes = 96;
         }
     }
+
+    
 }

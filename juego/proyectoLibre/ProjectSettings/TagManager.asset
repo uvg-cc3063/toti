@@ -7,6 +7,12 @@ TagManager:
   - balas
   - bateria
   - cofre
+  - player
+  - slasher
+  - bala
+  - fuego
+  - puerta
+  - boss
   layers:
   - Default
   - TransparentFX
