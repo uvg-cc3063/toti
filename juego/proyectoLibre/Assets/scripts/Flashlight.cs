@@ -20,11 +20,17 @@ public class Flashlight : MonoBehaviour
 
     public PlayerMove bat;
     
+    public AudioClip stress;
+    public AudioClip off;
+    private AudioSource audioD;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         luz = GetComponent<Light>();
+        audioD = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -33,40 +39,45 @@ public class Flashlight : MonoBehaviour
         tiempo += Time.deltaTime;
         contador = Convert.ToInt32(Math.Ceiling(tiempo));
         
-        if (contador <= 46)
+        if (contador <= 30)
         {
             luz.intensity = 1f;
             contentFlash.fillAmount = 1f;
         }
-        if (contador >= 46 && contador < 92)
+        if (contador >= 30 && contador < 60)
         {
+            audioD.clip = stress;
+            audioD.Play();
             luz.intensity = 0.9f;
             contentFlash.fillAmount = 0.80f;
         }
-        if (contador >= 92 && contador < 138)
+        if (contador >= 60 && contador < 90)
         {
             luz.intensity = 0.8f;
             contentFlash.fillAmount = 0.60f;
+            
         }
-        if (contador >= 138 && contador < 184)
+        if (contador >= 90 && contador < 120)
         {
             luz.intensity = 0.7f;
             contentFlash.fillAmount = 0.40f;
         }
-        if (contador >= 184 && contador < 230)
+        if (contador >= 120 && contador < 150)
         {
             luz.intensity = 0.5f;
             contentFlash.fillAmount = 0.20f;
         }
-        if (contador >= 230 && contador < 240)
+        if (contador >= 150 && contador < 160)
         {
             luz.intensity = Mathf.PingPong(Time.time * vel2, duration);
             contentFlash.fillAmount = 0.10f;
         }
-        if (contador >= 240)
+        if (contador >= 160)
         {
-            luz.intensity = 0f;
+            luz.intensity = 0.2f;
             contentFlash.fillAmount = 0f;
+            audioD.clip = off;
+            audioD.Play();
         }
     }
     

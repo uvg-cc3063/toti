@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -25,19 +26,21 @@ public class Slasher : MonoBehaviour
     private float inicioAtaque;
     public float tiempoAtaque;
     
+    public AudioClip attack;
+    private AudioSource audioS;
+    
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
-        enemy = GetComponent<NavMeshAgent>(); 
+        enemy = GetComponent<NavMeshAgent>();
+        audioS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 ray = transform.TransformDirection(Vector3.forward);
-        Debug.DrawRay(transform.position, new Vector3(0,100, 0), Color.green, 300, false);
-        
+
         //idle
         if (Vector3.Distance(player.position, enemy.transform.position) > walkingDistance)
         {
@@ -69,6 +72,9 @@ public class Slasher : MonoBehaviour
                     anim.SetBool("isAttacking", true);
                     
                     jug.bajarVidaPlayer(); 
+                    
+                    audioS.clip = attack;
+                    audioS.Play();
                 }
             //}
         //}
@@ -92,19 +98,7 @@ public class Slasher : MonoBehaviour
         if (contentSlash.fillAmount == 0.0f)
         {
             Destroy(slasherObj);
-        }
-    }
-    
-    public void acuchillarSlash()
-    {
-        if (contentSlash.fillAmount > 0.0f)
-        {
-            contentSlash.fillAmount -= 0.11f;
-        }
-
-        if (contentSlash.fillAmount == 0.0f)
-        {
-            Destroy(slasherObj);
+            jug.killSlash();
         }
     }
 }

@@ -28,19 +28,21 @@ public class Boss : MonoBehaviour
     public float tiempoDisparo;
     public Rigidbody fireballPrefab;
     
+    
+    public AudioClip fireball;
+    private AudioSource audioB;
+    
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         enemy = GetComponent<NavMeshAgent>(); 
+        audioB = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Vector3 ray = transform.TransformDirection(Vector3.forward);
-        //Debug.DrawRay(transform.position, new Vector3(0,100, 0), Color.green, 300, false);
-        
         //idle
         if (Vector3.Distance(player.position, enemy.transform.position) > walkingDistance)
         {
@@ -68,6 +70,8 @@ public class Boss : MonoBehaviour
                     anim.SetBool("IsWalking", false);
                     anim.SetBool("IsIdle", false);
                     anim.SetBool("IsAttacking", true);
+                    audioB.clip = fireball;
+                    audioB.Play();
                     
                     inicioDisparo = Time.time + tiempoDisparo;
 
@@ -102,19 +106,7 @@ public class Boss : MonoBehaviour
         if (contentBoss.fillAmount == 0.0f)
         {
             Destroy(bossObj);
-        }
-    }
-
-    public void acuchillarBoss()
-    {
-        if (contentBoss.fillAmount > 0.0f)
-        {
-            contentBoss.fillAmount -= 0.11f;
-        }
-
-        if (contentBoss.fillAmount == 0.0f)
-        {
-            Destroy(bossObj);
+            juga.killBoss();
         }
     }
 }

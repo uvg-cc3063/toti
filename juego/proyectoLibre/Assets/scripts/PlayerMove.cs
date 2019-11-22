@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
+using System.Xml.Resolvers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,17 +36,14 @@ public class PlayerMove : MonoBehaviour
    private bool puerta;
    private bool danado;
    private bool pelea;
+   private bool sonido;
    
-   private bool boss;
-   private bool slash;
-
-   private float inicioCuchillo;
-   public float tiempoCuchillo;
    private float inicioRegen;
    public float tiempoRegen;
 
 
    public int bateria;
+   public int bateria2;
    public Text bateriaTxt;
    
    public int llave;
@@ -54,21 +53,40 @@ public class PlayerMove : MonoBehaviour
 
    private GameObject destruir;
    
+   private GameObject cofreOBJ;
+   public Animator cofreAnim;
+
    public disparo recarga;
    public Flashlight flash;
-   private Slasher sl;
-   private Boss bo;
+   private Cofre cofre;
+   public Pausa paus;
+
+
+   public Canvas final;
+
+   public Text bossKill;
+   public Text slasherKill;
+   public Text llaveTXT;
+   public Text bateryTXT;
+   public Text winLoseTXT;
    
-   public Animator cofre;
+   private int slasherKillI;
+   private int bossKillI;
    
    
+   public AudioClip open;
+   public AudioClip take;
+   public AudioClip win;
+   public AudioClip lose;
+   private AudioSource audioP;
+
 
    private void Start()
    {
-      sl = GetComponent<Slasher>();
-      bo = GetComponent<Boss>();
+      final.enabled = false;
       bateria = 1;
       bateriaTxt.text = bateria.ToString();
+      audioP = GetComponent<AudioSource>();
    }
 
    private void Awake()
@@ -79,42 +97,57 @@ public class PlayerMove : MonoBehaviour
    private void Update()
    {
       PlayerMovement();
+      bossKill.text = bossKillI.ToString();
+      slasherKill.text = slasherKillI.ToString();
+      bateryTXT.text = bateria2.ToString();
+      llaveTXT.text = llave.ToString();
       bateriaTxt.text = bateria.ToString();
       llaveTxt.text = llave.ToString();
       if (Input.GetKeyDown(KeyCode.E))
       {
          if (municionBool)
          {
-            recarga.SetRecarga(12);
+            recarga.SetRecarga(9);
             municionBool = false;
             Destroy(destruir);
+            audioP.clip = take;
+            audioP.Play();
          }
          if (bateriaBool)
          {
             bateria += 1;
+            bateria2 += 1;
             bateriaBool = false;
             Destroy(destruir);
+            audioP.clip = take;
+            audioP.Play();
          }
          if (cofreBool)
          {
             //animacion
-            if (llaveBool)
+            cofreAnim.SetBool("abrir", true);
+            if (sonido)
             {
-               llave += 1;
-               llaveBool = false;
-               cofreBool = false;
-               Destroy(destruir); 
+               audioP.clip = open;
+               audioP.Play();
             }
-            llaveBool = true;
+            if (cofre.GetComponentInChildren<Llave>() != null)
+            {
+               if (llaveBool)
+               {
+                  llave += 1;
+                  llaveBool = false;
+                  cofreBool = false;
+                  Destroy(destruir); 
+               }
+               llaveBool = true;
+               sonido = false;
+            }
          }
 
-         if (puerta && llave == 7)
+         if (puerta && llave >= 6)
          {
-            //gano();
-         }
-         else if (puerta)
-         {
-            
+            winGame();
          }
       }
 
@@ -123,35 +156,13 @@ public class PlayerMove : MonoBehaviour
          flash.resetLuz();
       }
 
-      if (Input.GetButtonDown("Fire2") && Time.time > inicioCuchillo)
-      {
-         inicioCuchillo = Time.time + tiempoCuchillo;
-         if (boss)
-         {
-            bo.acuchillarBoss();
-         }
-
-         if (slash)
-         {
-            Debug.Log("entra");
-            sl.acuchillarSlash();
-         }
-      }
-      
-      
       //regenerar
-      if (danado && pelea == false)
+      if (pelea == false)
       {
-         Debug.Log("ouch");
-         if (contentPlayer.fillAmount < 100f && Time.time > inicioRegen)
+         if (Time.time > inicioRegen)
          {
-            Debug.Log("subo"); 
             inicioRegen = Time.time + tiempoRegen; 
-            contentPlayer.fillAmount += 20.0f;
-         } 
-         if (contentPlayer.fillAmount >= 100.0f)
-         {
-            danado = false;
+            contentPlayer.fillAmount += 10;
          }
       }
    }
@@ -259,8 +270,11 @@ public class PlayerMove : MonoBehaviour
          municionBool = false;
          bateriaBool = false;
          cofreBool = true;
+         cofre = other.GetComponent<Cofre>();
+         cofreAnim = cofre.GetComponent<Animator>();
          Llave llave = other.GetComponentInChildren<Llave>();
          destruir = llave.gameObject;
+         sonido = true;
       }
       if (other.gameObject.CompareTag("fuego"))
       {
@@ -277,12 +291,10 @@ public class PlayerMove : MonoBehaviour
       if(other.gameObject.CompareTag("slasher"))
       {
          pelea = true;
-         slash = true;
       }
       if(other.gameObject.CompareTag("boss"))
       {
          pelea = true;
-         boss = true;
       }
    }
 
@@ -308,13 +320,11 @@ public class PlayerMove : MonoBehaviour
       }
       if(otherE.gameObject.CompareTag("slasher"))
       {
-         pelea = false;
-         slash = false;
+         pelea = false; 
       }
       if(otherE.gameObject.CompareTag("boss"))
       {
          pelea = false;
-         boss = false;
       }
    }
    
@@ -329,8 +339,7 @@ public class PlayerMove : MonoBehaviour
       
       if (contentPlayer.fillAmount <= 0f)
       {
-         Debug.Log("perdio");
-         //endGame();
+         endGame();
       }
    }
    
@@ -338,14 +347,49 @@ public class PlayerMove : MonoBehaviour
    {
       if (contentPlayer.fillAmount > 0.0f)
       {
-         contentPlayer.fillAmount -= 0.34f;
+         contentPlayer.fillAmount -= 0.25f;
          danado = true;
       }
       
       if (contentPlayer.fillAmount <= 0f)
       {
-         Debug.Log("perdio");
-         //endGame();
+         endGame();
       }
+   }
+
+   private void endGame()
+   {
+      final.enabled = true;
+      Time.timeScale = 0;
+      winLoseTXT.text = "You've lost";
+      Cursor.visible = true;
+      Cursor.lockState = CursorLockMode.None; 
+      paus.GamsIsPaused = true;
+      audioP.clip = lose;
+      audioP.Play();
+   }
+   
+   private void winGame()
+   {
+      final.enabled = true;
+      Time.timeScale = 0;
+      winLoseTXT.text = "You've won";
+      Cursor.visible = true;
+      Cursor.lockState = CursorLockMode.None;
+      paus.GamsIsPaused = true;
+      audioP.clip = win;
+      audioP.Play();
+   }
+
+   public void killSlash()
+   {
+      slasherKillI += 1;
+      pelea = false;
+   }
+   
+   public void killBoss()
+   {
+      bossKillI += 1;
+      pelea = false;
    }
 }

@@ -21,8 +21,11 @@ public class disparo : MonoBehaviour
     public Text alertaTxt;
 
     private Slasher slash;
-    
-    public Animator animShot;
+    public Pausa pause;
+    public PlayerMove playerM;
+
+    public AudioClip shot;
+    private AudioSource audioD;
     
     // Start is called before the first frame update
     void Start()
@@ -30,13 +33,16 @@ public class disparo : MonoBehaviour
         alerta = "Press R to reload";
         alerta2 = "No more bullets!";
         balas = 6;
-        balasRes = 36;
-        
+        balasRes = 24;
+        audioD = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        //animShot.SetBool("shot", false);
+        //animShot.SetBool("off", false);
         //mesanjes de sin balas/recargar
         if (balas == 0)
         {
@@ -52,18 +58,24 @@ public class disparo : MonoBehaviour
         balasTxt.text = balas.ToString();
         balasResTxt.text = balasRes.ToString();
         //disparo
-        if (Input.GetButtonDown("Fire1") && Time.time > inicioDisparo && balas != 0)
+        if (pause.GamsIsPaused == false)
         {
-            animShot.SetBool("shot", true);
-            animShot.SetBool("off", false);
-            balas = balas - 1;
+            if (Input.GetButtonDown("Fire1") && Time.time > inicioDisparo && balas != 0)
+            {
+                //animShot.SetBool("shot", true);
+                //animShot.SetBool("off", false);
+                balas = balas - 1;
+                audioD.clip = shot;
+                audioD.Play();
 
-            inicioDisparo = Time.time + tiempoDisparo;
-            Rigidbody balaPrefInstanc;
+                inicioDisparo = Time.time + tiempoDisparo;
+                Rigidbody balaPrefInstanc;
 
-            balaPrefInstanc = Instantiate(balaPrefab, jugador.position, Quaternion.identity);
-            balaPrefInstanc.AddForce(jugador.forward * velDisparo * 100);
+                balaPrefInstanc = Instantiate(balaPrefab, jugador.position, Quaternion.identity);
+                balaPrefInstanc.AddForce(jugador.forward * velDisparo * 100);
+            }
         }
+        
 
         //recargar
         if (Input.GetKeyDown(KeyCode.R) && balasRes != 0)
@@ -290,13 +302,13 @@ public class disparo : MonoBehaviour
     //agarrar balas
     public void SetRecarga(int recarga)
     {
-        if (balasRes < 84)
+        if (balasRes < 60)
         {
             balasRes = balasRes + recarga;
         }
         else
         {
-            balasRes = 96;
+            balasRes = 66;
         }
     }
 
